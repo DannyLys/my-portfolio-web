@@ -1,0 +1,49 @@
+@import 'variables';
+@import 'mixins';
+
+.btn-contact {
+  position: relative;
+  display: block;
+  width: 8.5rem;
+  padding: 0.8375rem 1.25rem;
+  font-weight: 700;
+  margin: 2rem 0;
+  border: 0.1rem solid $mainTxtColor;
+  background-color: $fifthColor;
+  color: $mainTxtColor;
+
+  &:hover {
+    color: $firstColor;
+    background-color: $mainTxtColor;
+  }
+}
+
+.btn-send {
+  width: 12rem;
+}
+
+.btn-submit {
+  @include divCenter;
+}
+
+.back-to-top {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  right: 1.875rem;
+  bottom: 1.2rem;
+  z-index: 999;
+  background-color: $thirdColor !important;
+  border-color: $thirdColor !important;
+
+  i {
+    color: $mainTxtColor;
+    font-size: 1rem;
+    @include absoluteCenter;
+  }
+
+  &:hover {
+    background-color: $firstColor !important;
+    border-color: $firstColor !important;
+  }
+}

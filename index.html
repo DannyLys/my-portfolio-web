@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:image" content="img/logo google.webp">
+  <meta name="description" content="My projects are unique solutions tailored to my clients needs. Discover how I can help your business grow by taking a look at my work.">
+  <title>Daniel Lyszczek - My Portfolio</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel="icon" type="image/png" href="img/favico.png" />
+  <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/dist/leaflet.css">
+  <script src="/dist/jquery-3.6.4.min.js"></script>
+  <script src="/dist/leaflet.js"></script>
+  <script src="/js/Leaflet.Sleep.js"></script>
+  <script src="/dist/lazyload.min.js"></script>
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5SSNMTF');
+  </script>
+  <!-- End Google Tag Manager -->
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SSNMTF" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <header>
+    <!-- nav -->
+    <nav id="wrap" class="navbar navbar-expand-lg navbar-dark menu fixed-top gradient-nav">
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col-2">
+            <a class="navbar-brand" href="#home">
+              <img src="img/logo.webp" alt="logo">
+            </a>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="collapse navbar-collapse col-8" id="navbarSupportedContent" aria-label="Main menu">
+            <ul class="navbar-nav fw-bolder">
+              <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#my-skills">My Skills</a></li>
+              <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row align-items-end">
+          <div class="collapse navbar-collapse col-2" id="navbarSupportedContent" aria-label="Socials menu">
+            <ul class="navbar-nav text-center">
+              <li class="socials-top"><a href="https://www.facebook.com/daniel.lyszczek" target="_blank" title="Facebook"><i
+                    class="fab fa-facebook"></i></a>
+              </li>
+              <li class="socials-top"><a href="https://github.com/DannyLys" target="_blank" title="Github"><i class="fab fa-github"></i></a>
+              </li>
+              <li class="socials-top"><a href="https://www.linkedin.com/in/daniellyszczek/" target="_blank" title="Linkedin"><i
+                    class="fab fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <!-- main section -->
+  <section id="home" class="main">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-start">
+          <h1 class="display-2">
+            <span class="display-2-intro line-1 typing-anim">I'm Daniel</span>
+            <span class="display-2-description 1h-base line-1 line-2 typing-anim typing-anim-2">and this is my portfolio</span>
+          </h1>
+          <a class="rounded-pill btn-contact text-decoration-none contact" href="#contact">Contact Me</a>
+        </div>
+        <div class="rotating col-md-6 d-flex justify-content-center align-items-center">
+          <img class="img-fluid" src="img/full-logo.webp" alt="full-logo">
+          <div class="loader"></div>
+          <div class="loader loader-1"></div>
+          <div class="loader loader-2"></div>
+        </div>
+      </div>
+    </div>
+    <svg viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M 1.768 137.611 C 52.827 176.919 112.812 184.838 112.812 184.838 C 168.472 195.535 273.898 112.052 369.898 96.052 C 465.898 80.052 512.002 122.006 603.103 152.744 C 703.816 186.725 770.357 216.535 866.357 206.235 C 962.357 195.535 1006.646 159.513 1105.453 137.155 C 1202.105 115.285 1338.845 132.482 1389.054 146.262 L 1440 160 L 1440 320 L 1392 320 C 1344 320 1248 320 1152 320 C 1056 320 960 320 864 320 C 768 320 672 320 576 320 C 480 320 384 320 288 320 C 192 320 96 320 48 320 L 0 320 C 0 320 -46.25 100.644 1.768 137.611 Z">
+      </path>
+    </svg>
+  </section>
+  <!-- about section -->
+  <section id="about" class="about special-padding">
+    <div class="container">
+      <div class="row text-center">
+        <h2 class="display-3 fw-bold">About Me</h2>
+        <div class="heading-line mb-1"></div>
+      </div>
+      <div class="row pt-2 pb-2 mt-5 mb-3 align-items-center">
+        <div class="col-md-6">
+          <div class="bg-white p-4 text-start">
+            <p>
+              I'm a Junior Front-End Developer/Wordpress Developer located in Poland.
+            </p>
+            <p>Perfectly organised and open-minded person, independent employee with high attention to detail, problem
+              solver.</p>
+            <p>Interested in the entire frontend spectrum, on learning new technologies and working on really ambitious projects with positive people.</p>
+            <figure>
+              <blockquote class="blockquote fst-italic">
+                <p>"The best error message is the one that never shows up."</p>
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                <cite title="Source Title">Thomas Fuchs</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center align-items-center">
+          <div>
+            <img data-src="img/code.webp" alt="code picture" class="img-fluid img-code shadow lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- my skills section -->
+  <section id="my-skills" class="skills mt-6 special-padding">
+    <div class="container">
+      <div class="row text-center">
+        <h2 class="display-3 fw-bold">Skills & Experience</h2>
+        <div class="heading-line mb-1"></div>
+      </div>
+      <div class="mt-3 row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center align-items-center">
+          <div class="flip-div text-center">
+            MY
+            <div class="words-flip">
+              <div>
+                <div>html</div>
+              </div>
+              <div>
+                <div>css</div>
+              </div>
+              <div>
+                <div>git</div>
+              </div>
+              <div>
+                <div>wordpress</div>
+              </div>
+            </div>
+            SKILLS
+            <div class="words-flip">
+              <div>
+                <div>js</div>
+              </div>
+              <div>
+                <div>sass</div>
+              </div>
+              <div>
+                <div>bootstrap</div>
+              </div>
+              <div>
+                <div>woocommerce</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+          <div class="bg-white p-4 text-start">
+            <p>
+              For over 2 years I've been a freelancer, mainly creating fully responsive websites from scratch and
+              online stores based on one of the most popular open-source CMS Wordpress with WooCommerce.
+            </p>
+            <p>I also deal with a configuration and integration with sales programs such as Baselinker as well as
+              editing templates and providing technical support.</p>
+            <p>
+              I create websites for both business clients and private individuals.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- portfolio section -->
+  <section id="projects" class="portfolio mt-5 special-padding">
+    <div class="container">
+      <div class="row text-center">
+        <h2 class="display-3 fw-bold">Latest Projects</h2>
+        <div class="heading-line"></div>
+        <p class="lead">Few examples of my projects</p>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-6 col-md-6 mb-3">
+          <div class="portfolio-box shadow overflow-hidden image-container">
+              <img data-src="img/eko styl n.webp" alt="Eko-Styl" title="Eko-Styl Thumbnail" class="img-fluid img-zoom lazy">
+            <div class="project-overlay text-center fw-bold px-5">
+              <p class="text-uppercase mb-1">Eko-Styl</p>
+              <hr class="d-none d-sm-block d-md-none d-lg-block">
+              <p class="mb-1 mb-sm-2 mb-md-1 mb-lg-3">WP Website</p>
+              <p>This website was coded for IBRE Testin.pl, which was responsible for project finalization.</p>
+              <a class="text-decoration-none text-white" href="https://eko-styl.eu/" target="_blank"><img src="img/link icon.webp" alt="link icon"> View website</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-3">
+          <div class="portfolio-box shadow overflow-hidden image-container">
+              <img data-src="img/pakiet bhp n.webp" alt="Pakiet BHP" title="Pakiet BHP Thumbnail" class="img-fluid img-zoom lazy">
+            <div class="project-overlay text-center fw-bold px-5">
+              <p class="text-uppercase mb-1">Pakiet BHP</p>
+              <hr class="d-none d-sm-block d-md-none d-lg-block">
+              <p class="mb-1 mb-sm-2 mb-md-1 mb-lg-3">WP+WC Website/Store</p>
+              <p>This website was coded for IBRE Testin.pl, which was responsible for project finalization.</p>
+              <a class="text-decoration-none text-white" href="https://pakietbhp.pl/" target="_blank"><img src="img/link icon.webp" alt="link icon"> View website</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-3">
+          <div class="portfolio-box shadow overflow-hidden image-container">
+              <img data-src="img/bibula.webp" alt="Bistro Bibula" title="Bistro Bibula Thumbnail" class="img-fluid img-zoom lazy">
+            <div class="project-overlay text-center fw-bold px-5">
+              <p class="text-uppercase mb-1">Bistro Bibula</p>
+              <hr class="d-none d-sm-block d-md-none d-lg-block">
+              <p class="mb-1 mb-sm-2 mb-md-1 mb-lg-3">WP+WC Website/Store</p>
+              <a class="text-decoration-none text-white" href="https://bistrobibula.pl/" target="_blank"><img src="img/link icon.webp" alt="link icon"> View website</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-3">
+          <div class="portfolio-box shadow overflow-hidden image-container">
+              <img data-src="img/seats.webp" alt="Seats For Boats" title="Seats For Boats Thumbnail" class="img-fluid img-zoom lazy">
+            <div class="project-overlay text-center fw-bold px-5">
+              <p class="text-uppercase mb-1">Seats For Boats</p>
+              <hr class="d-none d-sm-block d-md-none d-lg-block">
+              <p class="mb-1 mb-sm-2 mb-md-1 mb-lg-3">WP Website</p>
+              <a class="text-decoration-none text-white" href="img/google-sfb-psi.webp" target="_blank" data-toggle="lightbox"><img src="img/link icon.webp" alt="link icon"> Check PageSpeed Insights</a>
+              <a class="text-decoration-none text-white mt-2" href="https://seatsforboats.eu/" target="_blank"><img src="img/link icon.webp" alt="link icon"> View website</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-3">
+          <div class="portfolio-box shadow overflow-hidden image-container">
+              <img data-src="img/estezee.webp" alt="Estezee" title="Estezee Thumbnail" class="img-fluid img-zoom lazy">
+            <div class="project-overlay text-center fw-bold px-5">
+              <p class="text-uppercase mb-1">Estezee</p>
+              <hr class="d-none d-sm-block d-md-none d-lg-block">
+              <p class="mb-1 mb-sm-2 mb-md-1 mb-lg-3">WP+WC Website/Store</p>
+              <a class="text-decoration-none text-white" href="https://estezee.pl/" target="_blank"><img src="img/link icon.webp" alt="link icon"> View website</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-3">
+          <div class="portfolio-box shadow overflow-hidden image-container">
+              <img data-src="img/srebro.webp" alt="SrebroUnikaty" title="Srebro Unikaty Thumbnail" class="img-fluid img-zoom lazy">
+            <div class="project-overlay text-center fw-bold px-5">
+              <p class="text-uppercase mb-1">Srebro unikaty</p>
+              <hr class="d-none d-sm-block d-md-none d-lg-block">
+              <p class="mb-1 mb-sm-2 mb-md-1 mb-lg-3">WP+WC Website/Store</p>
+              <a class="text-decoration-none text-white" href="img/google-psi.webp" target="_blank" data-toggle="lightbox"><img src="img/link icon.webp" alt="link icon"> Check PageSpeed Insights</a>
+              <a class="text-decoration-none text-white mt-2" href="https://srebrounikaty.pl/" target="_blank"><img src="img/link icon.webp" alt="link icon"> View website</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-3">
+          <div class="portfolio-box shadow overflow-hidden image-container">
+            <img data-src="img/muzyczny.webp" alt="Muzyczny Maluszek" title="Muzyczny Maluszek Thumbnail" class="img-fluid img-zoom lazy">
+            <div class="project-overlay text-center fw-bold px-5">
+              <p class="text-uppercase mb-1">Muzyczny Maluszek</p>
+              <hr class="d-none d-sm-block d-md-none d-lg-block">
+              <p class="mb-1 mb-sm-2 mb-md-1 mb-lg-3">WP Website</p>
+              <p>This website was coded for IBRE Testin.pl, which was responsible for project finalization.</p>
+              <a class="text-decoration-none text-white" href="https://muzycznymaluszek.pl/" target="_blank"><img
+                  src="img/link icon.webp" alt="link icon"> View website</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-3">
+          <div class="portfolio-box shadow overflow-hidden image-container">
+              <img data-src="img/tb4hr.webp" alt="TB4HR" title="TB4HR Thumbnail" class="img-fluid img-zoom lazy">
+            <div class="project-overlay text-center fw-bold px-5">
+              <p class="text-uppercase mb-1">TB4HR</p>
+              <hr class="d-none d-sm-block d-md-none d-lg-block">
+              <p class="mb-1 mb-sm-2 mb-md-1 mb-lg-3">Bootstrap & SASS</p>
+              <a class="text-decoration-none text-white" href="https://light.tb4hr.com/" target="_blank"><img
+                  src="img/link icon.webp" alt="link icon"> View website</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-3">
+          <div class="portfolio-box shadow overflow-hidden image-container">
+            <img data-src="img/kn.webp" alt="Kosmetologia Żaneta Nogaj" title="Kosmetologia Żaneta Nogaj Thumbnail" class="img-fluid img-zoom lazy">
+            <div class="project-overlay text-center fw-bold px-5">
+              <p class="text-uppercase mb-1">Kosmetologia</p>
+              <hr class="d-none d-sm-block d-md-none d-lg-block">
+              <p class="mb-1 mb-sm-2 mb-md-1 mb-lg-3">WP+WC Website/Store</p>
+              <a class="text-decoration-none text-white" href="https://kosmetologia-nogaj.pl/" target="_blank"><img
+                  src="img/link icon.webp" alt="link icon"> View website</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-3">
+          <div class="portfolio-box shadow overflow-hidden image-container">
+            <img data-src="img/tennis.webp" alt="Your Tennis" title="Your Tennis Thumbnail" class="img-fluid img-zoom lazy">
+            <div class="project-overlay text-center fw-bold px-5">
+              <p class="text-uppercase mb-1">Your Tennis</p>
+              <hr class="d-none d-sm-block d-md-none d-lg-block">
+              <p class="mb-1 mb-sm-2 mb-md-1 mb-lg-3">WP+WC Website/Store</p>
+              <p>This website was coded for IBRE Testin.pl, which was responsible for project finalization.</p>
+              <a class="text-decoration-none text-white" href="https://yourtennisproject.com/" target="_blank"><img
+                  src="img/link icon.webp" alt="link icon"> View website</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact form -->
+  <section id="contact" class="mt-5 special-padding">
+    <div class="container">
+      <div class="row text-center">
+        <h2 class="display-3 fw-bold">Contact Me</h2>
+        <div class="heading-line"></div>
+        <div class="p-4">
+          <p class="lh-lg">I'm interested in freelance and full time job opportunities – especially ambitious projects
+            and that where I can learn new technologies or get more experience. However, if you have other request or
+            question, don't hesitate to use the form and contact me.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6 form-div bg-white p-3 shadow">
+          <div class="form pb-2">
+            <h3 class="display-3-title mb-5 text-center">Get in touch</h3>
+            <form id="contact-form" class="row" method="post" action="php/contact.php" role="form">
+              <div class="col-lg-6 col-md mb-3 form-group">
+                <input type="text" placeholder="First Name*" id="form_name" name="name"
+                  class="shadow form-control form-control-lg" required="required" data-error="Firstname is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="col-lg-6 col-md mb-3 form-group">
+                <input type="text" placeholder="Last Name" id="form_lastname" name="surename"
+                  class="shadow form-control form-control-lg">
+              </div>
+              <div class="col-lg-6 mb-3 form-group">
+                <input type="tel" placeholder="phone number" id="form_phone" name="phone"
+                  class="shadow form-control form-control-lg">
+              </div>
+              <div class="col-lg-6 mb-3 form-group">
+                <input type="email" placeholder="e-mail address*" id="form_email" name="email"
+                  class="shadow form-control form-control-lg" required="required" data-error="Valid email is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="col-lg-12 mb-3 form-group">
+                <textarea name="message" placeholder="your message*" id="form_message" name="message" rows="8"
+                  class="shadow form-control form-control-lg" required="required"
+                  data-error="Please, leave a message."></textarea>
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="row text-center gx-0">
+                <div class="col-md-12">
+                  <p class="text-muted">
+                    <strong>*</strong> These fields are required.</p>
+                  <div class="h-captcha" data-sitekey="f9afe574-f285-46d3-a431-0f15eb4ea3d1"></div>
+                  <script src="https://js.hcaptcha.com/1/api.js?hl=en" async defer></script>
+                </div>
+              </div>
+              <div class="text-center mt-1">
+                <button type="submit" class="btn-contact btn-send rounded-pill shadow btn-submit">
+                  Send your message
+                </button>
+                <div class="messages"></div>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="footer mt-5">
+    <div id="map map-container" class="map-container">
+      <div id="map" class="mapContainer" style="width: 100%; height: 450px;"></div>
+      <script src="js/map.js"></script>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-3 col-lg-3 contact-box pt-1 d-lg-flex d-flex justify-content-center align-items-center">
+          <div class="contact-box-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24"
+              stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+              <path d="M15 7a2 2 0 0 1 2 2" />
+              <path d="M15 3a6 6 0 0 1 6 6" />
+            </svg>
+          </div>
+          <div class="contact-box-info">
+            <a href="tel:798358201" class="contact-box-info-title">798 358 201</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 contact-box pt-1 d-flex justify-content-center align-items-center">
+          <div class="contact-box-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24"
+              stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <polyline points="3 9 12 15 21 9 12 3 3 9" />
+              <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+              <line x1="3" y1="19" x2="9" y2="13" />
+              <line x1="15" y1="13" x2="21" y2="19" />
+            </svg>
+          </div>
+          <div class="contact-box-info">
+            <a href="mailto:contact@daniellyszczek.com" class="contact-box-info-title">contact@daniellyszczek.com</a>
+          </div>
+        </div>
+        <div class="col-md-3 col-lg-3 contact-box pt-1 d-flex justify-content-center align-items-center">
+          <div class="contact-box-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24"
+              stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <line x1="18" y1="6" x2="18" y2="6.01" />
+              <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+              <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+              <line x1="9" y1="4" x2="9" y2="17" />
+              <line x1="15" y1="15" x2="15" y2="20" />
+            </svg>
+          </div>
+          <div class="contact-box-info">
+            <a href="https://goo.gl/maps/QyHqGTuDnS1Z7uZ17" class="contact-box-info-title">Rzeszow, PL</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- socials -->
+    <div class="footer-sm mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 mb-4 d-flex justify-content-center align-items-center">
+            You can also find me on
+            <a href="https://www.facebook.com/daniel.lyszczek" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/DannyLys" target="_blank" title="Github"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/daniellyszczek/" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- copyright -->
+    <div class="footer-bottom py-3">
+      <div class="container">
+        <div class="row text-center text-white">
+          <div class="col-12">
+            <div class="footer-bottom-copyright">
+              &COPY; Copyright 2023 <span>Daniel Lyszczek</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- back to top btn -->
+  <div>
+    <a href="#" class="shadow btn rounded-circle back-to-top" title="Back to top">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+  </div>
+  <script src="dist/bootstrap.bundle.min.js"></script>
+  <script src="js/sticky.js"></script>
+  <script src="https://kit.fontawesome.com/ccbb5f75d7.js" crossorigin="anonymous"></script>
+  <script src="dist/validator.min.js"></script>
+  <script src="dist/index.bundle.min.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/cookies.js"></script>
+  <script src="js/lazyload.js"></script>
+  <script>
+    glowCookies.start('en', {
+      style: 1,
+      analytics: 'GTM-5SSNMTF',
+      policyLink: 'terms/privacy-policy.html'
+    });
+  </script>
+</body>
+</html>

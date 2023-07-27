@@ -1,0 +1,37 @@
+@import 'variables';
+
+@mixin gradient {
+  background: linear-gradient(90deg, $firstColor 15%, $thirdColor 50%, $fifthColor 85%);
+}
+
+@mixin absoluteCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin transitionProperty {
+  transition-duration: 1s;
+  transition-property: all;
+}
+
+@mixin sectionMarginTop {
+  margin-top: 5rem;
+}
+
+@mixin centerAlignedTxt {
+  text-align: center;
+}
+
+@mixin sectionMarginBot {
+  margin-bottom: 5rem;
+}
+
+@mixin divCenter {
+  margin: 0 auto;
+}
+
+@mixin sectionMarginBot {
+  margin-bottom: 3rem;
+}
